@@ -10,7 +10,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{A0D00CDD-A4BC-5AEE-BE32-923BFC39BDFF}</ProjectGuid>
+    <ProjectGuid>{F4349015-1917-9B91-B8A8-747A97120763}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Unity.PlasticSCM.Editor</AssemblyName>
@@ -221,8 +221,8 @@
     <Compile Include="Library\PackageCache\com.unity.collab-proxy@2.2.0\Editor\PlasticSCM\Views\History\HistoryListView.cs" />
     <Compile Include="Library\PackageCache\com.unity.collab-proxy@2.2.0\Editor\PlasticSCM\Tool\LaunchInstaller.cs" />
     <Compile Include="Library\PackageCache\com.unity.collab-proxy@2.2.0\Editor\PlasticSCM\UI\Tree\TreeHeaderColumns.cs" />
-    <Compile Include="Library\PackageCache\com.unity.collab-proxy@2.2.0\Editor\PlasticSCM\Views\IncomingChanges\Developer\DirectoryConflicts\ConflictResolutionState.cs" />
     <Compile Include="Library\PackageCache\com.unity.collab-proxy@2.2.0\Editor\PlasticSCM\UI\DrawTextBlockWithEndLink.cs" />
+    <Compile Include="Library\PackageCache\com.unity.collab-proxy@2.2.0\Editor\PlasticSCM\Views\IncomingChanges\Developer\DirectoryConflicts\ConflictResolutionState.cs" />
     <Compile Include="Library\PackageCache\com.unity.collab-proxy@2.2.0\Editor\PlasticSCM\AssetMenu\AssetMenuOperations.cs" />
     <Compile Include="Library\PackageCache\com.unity.collab-proxy@2.2.0\Editor\PlasticSCM\Views\Welcome\GetInstallerTmpFileName.cs" />
     <Compile Include="Library\PackageCache\com.unity.collab-proxy@2.2.0\Editor\PlasticSCM\UI\TabButton.cs" />
@@ -1046,19 +1046,19 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="UnityEditor.UI.csproj">
-      <Project>{9EA909A5-02CF-F014-52BD-FA7AD75473C0}</Project>
+      <Project>{52A24289-F3E5-0D24-A15B-8AA7040E72CA}</Project>
       <Name>UnityEditor.UI</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.UI.csproj">
-      <Project>{95A3F932-69D4-B5FD-FF16-E8273CDD52D8}</Project>
+      <Project>{183F3DED-22DB-0176-DECC-CC995E934CCD}</Project>
       <Name>UnityEngine.UI</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEditor.TestRunner.csproj">
-      <Project>{82119602-D522-2820-0EB7-CACA132458AD}</Project>
+      <Project>{312DBCAA-C735-08CC-3AFC-542D6ABE7F3D}</Project>
       <Name>UnityEditor.TestRunner</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.TestRunner.csproj">
-      <Project>{8D174F74-2D20-7A06-7B99-8BDE8EAC7204}</Project>
+      <Project>{4673E06C-3DCF-3651-D80C-7282D1E92FF1}</Project>
       <Name>UnityEngine.TestRunner</Name>
     </ProjectReference>
   </ItemGroup>

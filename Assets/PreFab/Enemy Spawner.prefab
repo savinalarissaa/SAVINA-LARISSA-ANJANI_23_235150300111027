@@ -41,9 +41,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 3023416730976100706}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2d167c59d599cc049b47d9b5fce70f20, type: 3}
+  m_Script: {fileID: 11500000, guid: 2b2b85578dc7ffc4d98946c3e1bf9730, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _enemyPrefab: {fileID: 4075144361833038549, guid: 3ea80d301bd1edb429b8ccca6fd48625, type: 3}
+  _enemyPrefab: {fileID: 4075144361833038549, guid: ad57cc7071398174a937fe1c8f857aa2, type: 3}
   _minimumSpawnTime: 2
   _maximumSpawnTime: 7

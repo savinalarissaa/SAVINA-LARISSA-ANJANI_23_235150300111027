@@ -10,7 +10,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{7D507BD8-047F-4019-EFD2-7B676187C8F1}</ProjectGuid>
+    <ProjectGuid>{63EB1EF3-5D27-D8F8-9666-301340810014}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Unity.VisualScripting.Flow</AssemblyName>
@@ -304,8 +304,8 @@
     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.9.1\Runtime\VisualScripting.Flow\Framework\Math\Vector4\Vector4Distance.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.9.1\Runtime\VisualScripting.Flow\Framework\Control\SelectOnString.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.9.1\Runtime\VisualScripting.Flow\Connections\IUnitConnectionDebugData.cs" />
-    <Compile Include="Library\PackageCache\com.unity.visualscripting@1.9.1\Runtime\VisualScripting.Flow\Framework\Control\SelectUnit.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.9.1\Runtime\VisualScripting.Flow\Flow.cs" />
+    <Compile Include="Library\PackageCache\com.unity.visualscripting@1.9.1\Runtime\VisualScripting.Flow\Framework\Control\SelectUnit.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.9.1\Runtime\VisualScripting.Flow\ScriptMachine.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.9.1\Runtime\VisualScripting.Flow\Framework\Codebase\Expose.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.9.1\Runtime\VisualScripting.Flow\Ports\ControlInputDefinition.cs" />
@@ -450,8 +450,8 @@
     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.9.1\Runtime\VisualScripting.Flow\Framework\Events\Input\OnMouseExit.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.9.1\Runtime\VisualScripting.Flow\Framework\Math\Vector3\Vector3Project.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.9.1\Runtime\VisualScripting.Flow\Framework\Math\Vector4\Vector4Divide.cs" />
-    <Compile Include="Library\PackageCache\com.unity.visualscripting@1.9.1\Runtime\VisualScripting.Flow\FlowGraphData.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.9.1\Runtime\VisualScripting.Flow\Framework\Math\Vector4\Vector4DotProduct.cs" />
+    <Compile Include="Library\PackageCache\com.unity.visualscripting@1.9.1\Runtime\VisualScripting.Flow\FlowGraphData.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.9.1\Runtime\VisualScripting.Flow\Framework\Variables\Obsolete\IsVariableDefinedUnit.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.9.1\Runtime\VisualScripting.Flow\Framework\Time\WaitUnit.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.9.1\Runtime\VisualScripting.Flow\Framework\Variables\Obsolete\IsApplicationVariableDefined.cs" />
@@ -1139,15 +1139,15 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Unity.VisualScripting.Core.csproj">
-      <Project>{AE0C65F3-9C48-FD3C-5BCD-8C4369F5B166}</Project>
+      <Project>{C24E4F23-4045-FEB8-F9B8-16AD374F03FB}</Project>
       <Name>Unity.VisualScripting.Core</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEditor.UI.csproj">
-      <Project>{9EA909A5-02CF-F014-52BD-FA7AD75473C0}</Project>
+      <Project>{52A24289-F3E5-0D24-A15B-8AA7040E72CA}</Project>
       <Name>UnityEditor.UI</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.UI.csproj">
-      <Project>{95A3F932-69D4-B5FD-FF16-E8273CDD52D8}</Project>
+      <Project>{183F3DED-22DB-0176-DECC-CC995E934CCD}</Project>
       <Name>UnityEngine.UI</Name>
     </ProjectReference>
   </ItemGroup>

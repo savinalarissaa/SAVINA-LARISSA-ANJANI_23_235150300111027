@@ -10,7 +10,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{EB2E05AF-63FC-CE09-F404-E9615F98FC2D}</ProjectGuid>
+    <ProjectGuid>{0EBB4A82-F61B-9D07-C3B6-47DCEBBEAD9F}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Unity.VisualScripting.Core.Editor</AssemblyName>
@@ -301,9 +301,9 @@
     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.9.1\Editor\VisualScripting.Core\Canvases\AlignOperation.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.9.1\Editor\VisualScripting.Core\ResourceProviders\AssetBundleResourceProvider.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.9.1\Editor\VisualScripting.Core\SerializedProperties\SerializedPropertyUtility.cs" />
-    <Compile Include="Library\PackageCache\com.unity.visualscripting@1.9.1\Editor\VisualScripting.Core\Plugin\Changelogs\LegacyLudiqCore\Changelog_1_3_1.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.9.1\Editor\VisualScripting.Core\Dependencies\ReorderableList\ElementAdderMenu\ElementAdderMeta.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.9.1\Editor\VisualScripting.Core\Utilities\NativeUtility.cs" />
+    <Compile Include="Library\PackageCache\com.unity.visualscripting@1.9.1\Editor\VisualScripting.Core\Plugin\Changelogs\LegacyLudiqCore\Changelog_1_3_1.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.9.1\Editor\VisualScripting.Core\Reflection\TypeOptionTree.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.9.1\Editor\VisualScripting.Core\Platforms\FieldInfoStubWriter.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@1.9.1\Editor\VisualScripting.Core\Plugin\Migrations\Migration_1_4_0_f5_to_1_4_0_f6.cs" />
@@ -1227,23 +1227,23 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Unity.VisualScripting.Core.csproj">
-      <Project>{AE0C65F3-9C48-FD3C-5BCD-8C4369F5B166}</Project>
+      <Project>{C24E4F23-4045-FEB8-F9B8-16AD374F03FB}</Project>
       <Name>Unity.VisualScripting.Core</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEditor.UI.csproj">
-      <Project>{9EA909A5-02CF-F014-52BD-FA7AD75473C0}</Project>
+      <Project>{52A24289-F3E5-0D24-A15B-8AA7040E72CA}</Project>
       <Name>UnityEditor.UI</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.UI.csproj">
-      <Project>{95A3F932-69D4-B5FD-FF16-E8273CDD52D8}</Project>
+      <Project>{183F3DED-22DB-0176-DECC-CC995E934CCD}</Project>
       <Name>UnityEngine.UI</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEditor.TestRunner.csproj">
-      <Project>{82119602-D522-2820-0EB7-CACA132458AD}</Project>
+      <Project>{312DBCAA-C735-08CC-3AFC-542D6ABE7F3D}</Project>
       <Name>UnityEditor.TestRunner</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.TestRunner.csproj">
-      <Project>{8D174F74-2D20-7A06-7B99-8BDE8EAC7204}</Project>
+      <Project>{4673E06C-3DCF-3651-D80C-7282D1E92FF1}</Project>
       <Name>UnityEngine.TestRunner</Name>
     </ProjectReference>
   </ItemGroup>
